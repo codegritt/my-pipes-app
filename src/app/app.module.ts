@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { Shortenpipe } from './shorten.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Shortenpipe
   ],
   imports: [
     BrowserModule,
